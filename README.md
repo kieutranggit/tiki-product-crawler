@@ -5,7 +5,7 @@ normalize the product description, and save everything as JSON files.
 Every id ends up either as a product or as an error with its reason, and a check script
 proves that nothing is missing or duplicated.
 
-The goal was to solve a real data collection task with **basic tools I fully understand**,
+The goal was to solve a real data collection task,
 and to make the long run (about 3 days) safe: it can be stopped at any time and continued,
 and every problem is logged.
 
