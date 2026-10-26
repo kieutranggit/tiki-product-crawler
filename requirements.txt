@@ -2,4 +2,4 @@ pandas==2.3.3
 openpyxl
 curl_cffi==0.16.3
 beautifulsoup4==4.15.0
-ipykernel
+pytest==9.1.1

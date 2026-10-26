@@ -1,13 +1,15 @@
 .venv/
 __pycache__/
+.pytest_cache/
 .ipynb_checkpoints/
 *.tmp
 *.zip
+output/crawl.log
 
 # Full data is on Google Drive; keep only one sample file of each folder
-data/products/*
-!data/products/products_001.json
-data/clean/*
-!data/clean/products_001.json
-data/errors/*
-!data/errors/errors_001.json
+output/raw/*
+!output/raw/products_001.json
+output/clean/*
+!output/clean/products_001.json
+output/errors/*
+!output/errors/errors_001.json
